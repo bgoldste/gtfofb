@@ -1,0 +1,1 @@
+setInterval(function(){alert("GET THE FUCK OFF OF FACEBOOK, HAVE SOME SELF RESPECT!")}, 400);

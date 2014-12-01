@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "GTFO FACEBOOK",
+  "description": "Y u on fb bro.",
+  "version": "1.0",
+
+  "permissions": [
+   "tabs", 
+  "http://kimonolabs.zendesk.com/*",
+   "webNavigation"
+  ],
+
+
+
+   "content_scripts": [
+   {
+    "matches": ["https://www.facebook.com/*"],
+    "js": [ "myscript.js"]
+  }
+  ]
+
+}
+
+
+
